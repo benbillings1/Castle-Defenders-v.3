@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1120435154}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 180.64334, y: 0, z: 279.7}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1548278488}
   m_Father: {fileID: 0}
@@ -51,6 +51,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  dragonModel: {fileID: 1120435156}
 --- !u!1 &1548278487
 GameObject:
   m_ObjectHideFlags: 0
@@ -62,7 +63,6 @@ GameObject:
   - component: {fileID: 1548278488}
   - component: {fileID: 1548278490}
   - component: {fileID: 1548278489}
-  - component: {fileID: 1548278491}
   m_Layer: 0
   m_Name: Group56496
   m_TagString: Untagged
@@ -77,9 +77,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548278487}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.5, y: -68.7, z: -128.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.79, y: 0.6, z: -10.78}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1120435156}
   m_RootOrder: 0
@@ -129,16 +129,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &1548278491
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548278487}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 48.4
-  m_Center: {x: -31.96, y: 33.082836, z: 44.770653}
