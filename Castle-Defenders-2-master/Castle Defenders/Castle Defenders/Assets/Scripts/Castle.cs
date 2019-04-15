@@ -10,6 +10,7 @@ public class Castle : MonoBehaviour
     public float health;
 
     public Image healthBar;
+    public Transform endNode;
 
 
     private void Start()
@@ -27,8 +28,12 @@ public class Castle : MonoBehaviour
 
     }
 
-    //private void OnTriggerEnter(Collider other)
-    //{
-        //TakeDamage(EnemyDragon.damage);
-    //}
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.position == endNode.position)
+        {
+            TakeDamage(other.gameObject.GetComponent<EnemyDragon>().damage);
+            
+        }
+    }    
 }
